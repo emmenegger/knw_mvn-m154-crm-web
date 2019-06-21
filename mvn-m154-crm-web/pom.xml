@@ -82,7 +82,7 @@
 				</executions>
 			</plugin>
 			
-			<!-- plugin>
+			<plugin>
 				<groupId>io.fabric8</groupId>
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>0.27.2</version>
@@ -91,7 +91,7 @@
 					<verbose>true</verbose>
 					<images>
 						<image>
-							<name>crm-web-image</name>
+							<name>knw-crm-web-image</name>
 							<build>
 								<dockerFileDir>${project.basedir}</dockerFileDir>
 								<assembly>
@@ -120,7 +120,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin -->
+			</plugin>
 			
 			<plugin>
 				<version>2.7</version>
